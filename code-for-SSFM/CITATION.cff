@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use DeltScan, please cite the software below and the accompanying article."
+title: "DeltScan: fidelity bounds and a single-grid convergence protocol for extreme-event statistics in integrable turbulence"
+abstract: >-
+  DeltScan accompanies a methodological study of spurious extreme events in
+  under-resolved split-step Fourier simulations of integrable turbulence. It
+  provides a symmetrized split-step Fourier integrator for the focusing
+  nonlinear Schrodinger equation with random initial data, a single-grid
+  low-pass ("delta") fingerprint diagnostic that separates aliasing artefacts
+  from resolved peaks, an ensemble driver with checkpointing, and bootstrap
+  statistics for the ensemble medians and tail probabilities.
+type: software
+authors:
+  - family-names: Ma
+    given-names: Hongcai
+    affiliation: "College of Mathematics and Statistics, Donghua University, Shanghai 201620, China"
+    email: hongcaima@hotmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # fill in if available
+  - family-names: Deng
+    given-names: Aiping
+    affiliation: "College of Mathematics and Statistics, Donghua University, Shanghai 201620, China"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # fill in if available
+version: "1.0.0"
+date-released: "2026-11-24"   # set to the date of the tagged release
+license: GPL-3.0-or-later
+repository-code: "https://github.com/sun111moon/My-Research-Codes"   # update if renamed
+keywords:
+  - integrable turbulence
+  - extreme events
+  - spectral aliasing
+  - split-step Fourier method
+  - nonlinear Schrodinger equation
+  - convergence protocol
+  - reproducibility
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"   # Zenodo DOI of release v1.0.0, fill after archiving
+preferred-citation:
+  type: article
+  title: "Fidelity bounds and a single-grid convergence protocol for extreme-event statistics in integrable turbulence"
+  authors:
+    - family-names: Ma
+      given-names: Hongcai
+    - family-names: Deng
+      given-names: Aiping
+  journal: "Computer Physics Communications"
+  year: 2026
+  status: submitted

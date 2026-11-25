@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Editors and macOS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs and scratch / temporary diagnostics
+*.log
+*.aux
+scratch/
+tmp/
+
+# pip download cache / wheels (never commit these)
+*.whl
+*.whl.metadata
+
+# optional: intermediate snapshots written by 01_run_convergence.py
+# (keep them out of the repo if you regenerate them per run)
+# results/
+
+# ---------------------------------------------------------------------------
+# NOTE: do NOT add  *.npz  or  figures/  here.
+#   ensemble_results.npz, ensemble_results_1000.npz and figures/ are the
+#   evidence files of the reproducibility package and must be committed.
+# ---------------------------------------------------------------------------

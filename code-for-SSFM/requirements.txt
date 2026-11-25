@@ -1,0 +1,8 @@
+# DeltScan — Python dependencies
+# Pin to the versions you actually tested before release.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Optional fast FFT backend (GPL); falls back to numpy.fft if absent.
+pyFFTW>=0.13
