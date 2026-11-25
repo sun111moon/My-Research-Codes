@@ -21,7 +21,7 @@ authors:
     affiliation: "College of Mathematics and Statistics, Donghua University, Shanghai 201620, China"
     # orcid: "https://orcid.org/0000-0000-0000-0000"   # fill in if available
 version: "1.0.0"
-date-released: "2026-11-24"   # set to the date of the tagged release
+date-released: "2026-11-25"   # date of the tagged release v1.0.0
 license: GPL-3.0-or-later
 repository-code: "https://github.com/sun111moon/My-Research-Codes"   # update if renamed
 keywords:
@@ -32,9 +32,9 @@ keywords:
   - nonlinear Schrodinger equation
   - convergence protocol
   - reproducibility
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXXXXX"   # Zenodo DOI of release v1.0.0, fill after archiving
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24525658"   # Zenodo DOI of release v1.0.0
 preferred-citation:
   type: article
   title: "Fidelity bounds and a single-grid convergence protocol for extreme-event statistics in integrable turbulence"
